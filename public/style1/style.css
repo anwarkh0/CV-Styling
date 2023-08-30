@@ -1,0 +1,193 @@
+
+@media (min-width:1063px) {
+    
+body {
+    position: relative;
+}
+header{
+    background-color: gray;
+    color: red;
+   
+}
+.skill{
+    background-color: rgb(217, 198, 198);
+    height: 20px;
+    color: white;
+    margin: 2px 200px 5px 0px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.skill span{
+    background-color: red;
+    display: flex;
+    width: 30%;
+
+}
+h4,.experience-date-separator{
+    color: red;
+}
+.experience-details{
+    color: gray;
+}
+.contact-type{
+    color: white;
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+dl{
+    display: flex;
+  
+}
+
+.contact{
+    position: relative;
+    background-color:black;
+    padding: 0;
+    margin: 0;
+    width:500px;
+}
+.contact-type{
+    background-color: red;
+    width:110px
+}
+
+
+#contact h3 {
+    display: none;
+}
+#contact .contacts {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+}
+header div{
+    display: flex;
+    margin-left: 200px;    
+}
+.content{
+    margin: 50px 200px 0 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content section{
+    width: 50%;
+}
+.content section p{
+    width: 90%;
+}
+.content section h3{
+    border-bottom: 1px solid rgb(216,213,213);
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+section h3:before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    font-size: 4em;
+    position: absolute;
+    margin-top: -35px;
+   
+    left:0;
+
+    
+}
+.experience-location:before{
+    content: "in";
+}
+.skills-primary:before{
+    content: "main";
+      /* margin-left: 40px; */
+}
+.skills-secondary:before{
+    content:"other";
+    /* margin-left: 40px; */
+}
+}
+@media (min-width:500px) {
+    header{
+        background-color: grey;
+        color:red;
+    }
+    header div{
+        margin-left: 30px;
+    
+    }
+    hgroup h1,hgroup h2{
+        margin-left: 35px;
+    }
+    .content h3{
+        border-bottom: 1px solid rgb(216,213,213);
+        margin-left: 25px;
+    }
+    section h3:before{
+        content: "\2022";
+        color: red;
+        font-weight: bold;
+        font-size: 4em;
+        position: absolute;
+        margin-top: -33px;
+        margin-left: -30px;
+    }
+        .content{
+            margin: 50px 20px 0 20px;
+        }
+        .experience-location:before{
+            content: "in";
+        }
+        a{
+            text-decoration: none;
+            color: red;
+    
+        } 
+        h4,.experience-date-separator{
+            color: red;
+        }
+        .experience-details{
+            color: gray;
+        }
+        .contact-type{
+            color: white;
+            background-color: red;
+        }
+        a{
+            text-decoration: none;
+            color: red;
+        }
+        dl{
+            display: flex;
+          
+        }
+        
+        .contact{
+            position: relative;
+            
+            padding: 0;
+            margin: 0;
+            width:500px
+        }
+        .contact-type{
+            background-color: red;
+            width:110px
+        }
+        .skill{
+            background-color: rgb(217, 198, 198);
+            height: 20px;
+            color: white;
+            margin: 2px 200px 5px 0px;
+            padding: 10px 10px 10px 10px;
+            
+        }
+        .skill span{
+            background-color: red;
+            display: flex;
+            width: 30%;
+        }
+          
+}    
